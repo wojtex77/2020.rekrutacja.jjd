@@ -10,9 +10,6 @@ public class Wall implements Structure {
     private Block getBlockOrNull(Object block) {
         return block instanceof Block ? ((Block) block) : null;
     }
-    public void addToWall(Block block){
-        blocks.add(block);
-    }
 
     @Override
     public Optional findBlockByColor(String color) {
