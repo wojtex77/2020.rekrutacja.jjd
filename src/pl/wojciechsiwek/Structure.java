@@ -12,4 +12,6 @@ public interface Structure {
 
     //zwraca liczbę wszystkich elementów tworzących strukturę
     int count();
+
+    void addBlock(Block block);
 }
